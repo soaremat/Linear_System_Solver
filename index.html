@@ -15,11 +15,23 @@
             <textarea id="equations" placeholder="Ex: 2x + 3y = 5"></textarea>
         </div>
         <button onclick="solve()">Resolver</button>
+        
+        <!-- Nova seção para exibir a matriz original -->
+        <p>Matriz Original:</p>
+        <pre id="originalMatrix"></pre>
+
+        <!-- Nova seção para exibir a matriz escalonada -->
+        <p>Matriz Escalonada:</p>
+        <pre id="escalonadaMatrix"></pre>
+
+        <!-- Seção para exibir o resultado -->
         <p>Resposta:</p>
         <pre id="result"></pre>
+
         <button onclick="clearScreen()">Limpar</button>
     </div>
 
     <script src="script.js"></script> <!-- Conexão com o arquivo JavaScript -->
+
 </body>
 </html>
