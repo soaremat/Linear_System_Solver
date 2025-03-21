@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método de Gauss</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conexão com o arquivo CSS externo -->
+</head>
+<body>
+    <div class="container">
+        <h1>Método de Gauss (Escalonamento)</h1>
+        <p>Olá, seja bem-vindo!</p>
+        <div class="input-container">
+            <p>Digite o sistema equacional (ex: 2x + 3y = 5):</p>
+            <textarea id="equations" placeholder="Ex: 2x + 3y = 5"></textarea>
+        </div>
+        <button onclick="solve()">Resolver</button>
+        <p>Resposta:</p>
+        <pre id="result"></pre>
+        <button onclick="clearScreen()">Limpar</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Conexão com o arquivo JavaScript -->
+</body>
+</html>

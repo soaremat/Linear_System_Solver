@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinhar conteúdo no topo */
+    height: 100vh;
+    margin: 0;
+    padding-top: 50px; /* Espaçamento no topo para descer o conteúdo */
+}
+
+.container {
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    background-color: #f9f9f9;
+    padding: 30px; /* Espaçamento interno */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Largura do container */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Tamanho da fonte do título */
+}
+
+.input-container {
+    margin-bottom: 15px; /* Espaçamento inferior */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+textarea {
+    padding: 10px;
+    width: 100%; /* Largura da textarea */
+    height: 150px; /* Altura da textarea */
+    margin-bottom: 15px; /* Espaçamento inferior */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+    font-size: 16px; /* Tamanho da fonte da textarea */
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+button {
+    padding: 12px 24px; /* Padding do botão */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+    white-space: pre-wrap; /* Preserva a formatação e quebra de linha */
+}
